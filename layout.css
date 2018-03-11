@@ -17,6 +17,7 @@
 */
 
 
+
 .sticky {
 position: fixed;
 top: 0;
@@ -33,7 +34,7 @@ ul{
 list-style-type: none;
 margin: 0;
 padding: 0;
-width: 190px;
+width: 170px;
 height: 180px;
 }
 li a {
@@ -64,11 +65,15 @@ img {
     margin-right: auto;
   }
 p{
-  font-size:30px;
+  font-size: 25px;
 }
 .pictures{
 height:410px;
 width:410px;
+}
+.pic{
+  height:500px;
+  width:500px;
 }
 
 /* div */
