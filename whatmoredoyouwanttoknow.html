@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<div id="example1">
 <meta charset="utf-8">
 <title></title>
+<link rel="stylesheet" type="text/css" href="what.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
-
+/*This changes Navagation Bar*/
 .sticky {
 position: fixed;
 top: 0;
@@ -15,10 +17,13 @@ width: 100%
 .sticky + .content {
 padding-top: 60px;
 }
-body {
-  background-image: url("Images/Background2.JPG");
-  background-repeat: no-repeat;
-  background-size: 2500px 900px;
+.sticky {
+position: fixed;
+top: 0;
+width: 15%
+}
+.sticky + .content {
+padding-top: 60px;
 }
 ul{
 list-style-type: none;
@@ -41,14 +46,13 @@ li a:hover {
 background-color: white;
 color: black;
 }
-.sticky {
-position: fixed;
-top: 0;
-width: 15%
+/*this affects the body*/
+body {
+  background-image: url("Images/Background2.JPG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.sticky + .content {
-padding-top: 60px;
-}
+/*this affects images*/
 img {
     display: block;
     margin-left: auto;
@@ -59,14 +63,28 @@ img {
     height: 203px;
     align: center;
     }
+    .pictures{
+    height:200px;
+    width:310px;
+    }
+    /*this affects paragraphs*/
 p{
   font-size:30px;
 }
-.pictures{
-height:410px;
-width:410px;
+.paragraphCenter{
+  max-width:70%;
+   margin: auto;
+}
+/*this affects ordered list*/
+ol.b{
+
+    font-size: 25px;
+    margin: 10%;
+    padding: auto;
+
 }
 </style>
+
 <a target="_top" href="http://www.flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2018/03/13/flamingtext_com_1520969149_646701184.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
 <body>
 <ul class= "sticky"font-family= "monospace">
@@ -77,6 +95,37 @@ width:410px;
 <li><a href="learning.html">Learned</a></li><br>
 <li><a href="mybestworks.html">Best Work</a></li>
 </ul>
-
+<br>
+<br>
+<br>
+<br>
+<a target="_top" href="http://www.flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2018/03/16/flamingtext_com_1521168967_646701733.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+<p align="center"> I would want to take this class because:</p>
+<ol class="b">
+  <li>Based on what I heard it sounds fun</li>
+      <li>It sounds like a hard class</li>
+      <li>I like a challenge</li>
+      <li>Games are fun and it wouold be cool to have your own</li>
+</ol>
+<img align="center"class="pictures"src="Images/gamecontroler.png" alt="Controller">
+<a target="_top" href="http://www.flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2018/03/16/flamingtext_com_1521169770_646701734.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+<p align="center"> I would want to take this class because:</p>
+<ol class="b">
+  <li>Never tried it before</li>
+      <li>More of a challenging</li>
+      <li>Give more skills and help if I took further classes</li>
+      <li>learn new things </li>
+</ol>
+<img align="center"class="pictures"src="Images/java script.png" alt="Block of JAVA Script">
  </body>
+ <address class="">
+  <strong>Jolene Marie Medugno</strong><br>
+  Email: <a href="jm145288@students.davenport.k12.ia.us">	jm145288@students.davenport.k12.ia.us</a><br>
+  Call:<a href="tel:+978.973.4697">(978) 973-4697</a>
+</address>
+ <footer>
+    <a href="https://www.instagram.com"><i class="fa fa-instagram" style="font-size:30px;color:pink"></i></a>
+    <a href="https://www.facebook.com"><i class="fa fa-facebook-square" style="font-size:30px;color:pink"></i></a>
+    <a href="https://twitter.com"><i class="fa fa-twitter-square" style="font-size:30px;color:pink"></i></a>
+      </footer>
 </html>

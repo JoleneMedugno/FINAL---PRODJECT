@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 1
+   Case Problem 1
+   Filename: jtc_layout.css
+
+   This file contains the layout styles used in the JTC website
+
+*/
+
+/* =============================================
+	Base layout styles used by mobile devices
+	up to 480px and cascaded to larger devices
+	unless superceded by other styles.
+   =============================================
+*/
+<style>
+/*This changes Navagation Bar*/
+.sticky {
+position: fixed;
+top: 0;
+width: 100%
+}
+.sticky + .content {
+padding-top: 60px;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 190px;
+height: 180px;
+}
+li a {
+display: block;
+background:black;
+padding: 8px 16px;
+text-decoration: none;
+font-size: 20px;
+color:white;
+
+}
+/* Change the link color on hover */
+li a:hover {
+background-color: white;
+color: black;
+}
+/*this affects the body*/
+body {
+  background-image: url("Images/Background2.JPG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/*this affects images*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .new{
+    width: 900px;
+    height: 203px;
+    align: center;
+    }
+    .pictures{
+    height:200px;
+    width:310px;
+    }
+    /*this affects paragraphs*/
+p{
+  font-size:30px;
+}
+.paragraphCenter{
+  max-width:70%;
+   margin: auto;
+}
+/*this affects ordered list*/
+ol.b{
+
+    font-size: 25px;
+    margin: 10%;
+    padding: auto;
+
+}
+</style>
